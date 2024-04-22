@@ -7,3 +7,11 @@
 // Pastaba: Rezultatai turi būti matomi formoje su įvesties lauku ir mygtuku,
 // ir rezultatai turi būti rodomi viduje <div id="output"></div> elemente.
 // Užtikrinkite, kad naudotojo sąsaja turėtų bent minimalų stilių.
+
+function fahrenheit(input) {
+    return f = (input * 9/5) + 32;
+}
+
+function kelvin(input) {
+    return k = input + 273.15;
+}
