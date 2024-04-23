@@ -8,10 +8,15 @@
 // ir rezultatai turi būti rodomi viduje <div id="output"></div> elemente.
 // Užtikrinkite, kad naudotojo sąsaja turėtų bent minimalų stilių.
 
-function fahrenheit(input) {
-    return f = (input * 9/5) + 32;
-}
+const button = document.querySelector("#submit-btn");
+const input = document.querySelector("#search").value;
 
-function kelvin(input) {
-    return k = input + 273.15;
-}
+console.log(input);
+
+// button.addEventListener("click", fahrenheit());
+
+// function fahrenheit(input) {
+//     const f = (input * 9/5) + 32;
+//     const k = input + 273.15;
+//     return
+// }
